@@ -1,0 +1,23 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "Lyalya",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.5"
+  },
+  "dependencies": {
+    "is-even-check-new": "^1.0.1",
+    "json-server": "^1.0.0-beta.3",
+    "lodash": "^4.17.21"
+  },
+  "generate": "json-server ./db/generate.js"
+}
+
+
