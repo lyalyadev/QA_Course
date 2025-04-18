@@ -44,6 +44,8 @@ test('zara', async ({page}) {
 
     });
 
+
+//gjrgr
 test('zara + working with cookies', async ({context, page}) => {
 
     await page.goto("https://www.zara.com/de/")
