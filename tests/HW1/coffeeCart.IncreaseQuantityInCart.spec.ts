@@ -11,8 +11,6 @@ test('increase quantity in the cart', async({page}) => {
     await expect(cartQuantity).toContainText('cart (1)');
 
     await page.locator(':not[pay-container] div.unit-controller').filter({hasText: "+"}).click();
-    //locator(:not[pay-container]'div.unit-controller').filter({ hasText: '+' })
-    //await page.getByRole('button', { name: 'Add one Mocha' }).click();
 
     await expect(cartQuantity).toContainText('cart (2)');
 

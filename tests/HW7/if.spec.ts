@@ -32,7 +32,7 @@ test('u2 number is not even', ()=>{
     expect(even).toBeFalsy();
 });
 
-test('u3 should throw error message if it is not number', () => {
+test('u3 0 should throw error message', () => {
     let exception = "";
     try {
         evenOrOddNumbers(0)
@@ -57,7 +57,7 @@ function greetings(hour: number) {
         return 'Good morning!'
     } else if (hour > 18 && hour <= 24) {
         return 'Good night!'
-    } else if (hour >=12 && hour <= 18) {
+    } else if (hour >=12 || hour <= 18) {
         return 'Good evening!'
     } else {
         throw Error("Please, make sure that you put hours between 0 and 24")
@@ -189,6 +189,22 @@ function pedestrianRules (light: string){
 function numberState(number: number){
 
 };
+
+
+
+
+/*
+ДЗ №7
+1️ Парне чи непарне число
+Напишіть програму, яка визначає, чи число парне або непарне.
+    Вхід: Число (наприклад, 4)
+Вихід:
+    "Число парне."
+"Число непарне."*/
+
+
+
+
 
 
 

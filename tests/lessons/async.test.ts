@@ -1,3 +1,4 @@
+import {get} from "node:http";
 
 
 function getArticle(id){
